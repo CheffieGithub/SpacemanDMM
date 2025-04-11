@@ -160,7 +160,7 @@ pub fn fix_case(path: &Path) -> Cow<Path> {
     Cow::Borrowed(path)
 }
 
-pub const DEFAULT_ENV: &str = "tgstation.dme";
+pub const DEFAULT_ENV: &str = "stonekeep.dme";
 
 /// Autodetect any `.dme` file in the current folder, or fall back to default.
 ///
